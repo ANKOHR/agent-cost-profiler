@@ -1,0 +1,5 @@
+Pytest: 38 passed.
+Local implementation commit: 91615b35921efc864b4aa34ee1ab8be6e24cfaac
+This hash identifies the completed, tested build immediately before the completion-marker commit.
+
+Built Agent Cost Profiler with five working argparse subcommands, validated illustrative prices, abort-first schema validation and atomic replacement ingestion, deterministic mission and agent reports, separately flagged unattributed spend, strict mission outliers and zero-success listings, fixed-seed 41 synthetic fixtures, and a derived highest-unattributed-spend signal. The full 38-test suite passes, including independent fixture calculations, adversarial inputs, determinism, and CLI smoke tests. The README documents schema, pricing, the synthetic baseline, the honesty boundary, and the explicit choice to exclude null-outcome spend from cost per success to satisfy the brief's test requirement. No publishing was performed.
