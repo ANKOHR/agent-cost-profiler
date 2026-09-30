@@ -1,0 +1,8 @@
+{
+  "_header": "SYNTHETIC fixture price table",
+  "note": "Example prices for demonstration. Not real vendor rates.",
+  "per_1k_input_usd": 0.01,
+  "per_1k_output_usd": 0.03,
+  "per_api_call_usd": 0.02,
+  "per_wall_hour_usd": 0.5
+}
