@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-cost-profiler"
+version = "0.1.0"
+description = "Deterministic cost attribution for agent run logs"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+acp = "acp.cli:main"
+
+[tool.setuptools]
+packages = ["acp"]
+
+[tool.setuptools.package-data]
+acp = ["prices.json"]
